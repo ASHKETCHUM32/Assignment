@@ -32,9 +32,9 @@ describe('Check Google Homepage', () => {
     await page.click('input[type="submit"]')
     await page.waitForSelector('a h3')
     const links = await page.$$eval('a h3', anchors => { return anchors.map(a => { return a.textContent }) })
-    await page.waitFor(90000)
-    assert.equal('Puppeteer - Google Developers', links[3])
-    await page.waitFor(90000)
+   
+    assert.equal('Puppeteer - Google Developers', links[6])
+    
   })
 })
 
