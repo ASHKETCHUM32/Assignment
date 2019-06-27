@@ -1,0 +1,20 @@
+{
+  "name": "puppetdeeer",
+  "version": "1.0.0",
+  "description": "puppeteer training",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 50000"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "Gagan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "puppeteer": "^1.18.0"
+   
+  }
+}
